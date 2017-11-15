@@ -93,5 +93,6 @@ Thumbs.db
 
 # on versionne également le thème utilisé sur le site
 !wp-content/plugins/*
-!wp-content/themes/.../
-wp-content/themes/.../node_modules/
+!wp-content/themes/higo/
+!wp-content/themes/higo-child/
+wp-content/themes/higo-child/node_modules/
