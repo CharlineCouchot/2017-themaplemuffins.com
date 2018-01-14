@@ -1,14 +1,65 @@
+@charset "UTF-8";
+
 /*
-Theme Name: Higo Child
-Theme URI: http://higo.sopkathemes.com/
-Author: Sopka Themes
-Template: higo
-Author URI: http://sopkathemes.com/
-Description: Higo child theme
+Theme Name: The Maple Muffins 2017
+Author: Charline Couchot
+Author URI: http://www.charlinecouchot.fr
+Description: Thème Wordpress pour le blog de voyage The Maple Muffins
 Version: 1.0.0
-License: ThemeForest Split License
-License URI: http://themeforest.net/licenses/standard
+Template: higo
 Text Domain: higo-child
 */
 
-/* Place all your custom CSS here */
+/* ----------------------------- */
+
+/* <icon-font.scss> */
+
+/* ----------------------------- */
+
+/* <config/type> */
+
+@import url("https://fonts.googleapis.com/css?family=Puritan:400,400i,700,700i");
+
+body {
+  font-family: 'Puritan', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ----------------------------- */
+
+/* <config/utils> */
+
+input:focus {
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.siteOffcanvas {
+  right: -200px;
+  width: 200px;
+}
+
+.siteOffcanvas.is-visible {
+  -webkit-transform: translateX(-200px);
+  transform: translateX(-200px);
+}
+
+.menu-offcanvas .menu-item a,
+.menu-navbar .menu-item a {
+  font-size: 14px;
+}
+
+.comment-subscription-form {
+  margin-bottom: 0;
+}
+
+script + .comment-subscription-form,
+.form-submit + .comment-subscription-form {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlcyI6WyJzdHlsZS5zY3NzIiwiY29uZmlnL19hbGwuc2NzcyIsImNvbmZpZy9fdmFyaWFibGVzLnNjc3MiLCJjb25maWcvX21peGlucy5zY3NzIiwiY29uZmlnL19pY29uLWZvbnQuc2NzcyIsImNvbmZpZy9fdHlwZS5zY3NzIiwiY29uZmlnL191dGlscy5zY3NzIiwidmVuZG9yL19hbGwuc2NzcyIsImNvbmZpZy9faWUuc2NzcyIsImNvbmZpZy9fcHJpbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7Ozs7Ozs7O0VBUUU7QUlSRixtQ0FBbUM7QUFDbkMsc0JBQXNCO0FDRHRCLG1DQUFtQztBQUNuQyxtQkFBbUI7QUFFbkIsT0FBTyxDQUFDLHdFQUFJO0FBRVosQUFBQSxJQUFJLENBQUM7RUFDSCxXQUFXLEVBQUUscUJBQXFCO0VBQ2xDLHNCQUFzQixFQUFFLFdBQVcsR0FDcEM7O0FDUkQsbUNBQW1DO0FBQ25DLG9CQUFvQjtBQUVwQixBQUFBLEtBQUssQUFBQSxNQUFNLENBQUM7RUFDVixPQUFPLEVBQUMsWUFBWTtFQUNwQixVQUFVLEVBQUUsZUFDZCxHQUFFOztBTmVGLEFBQUEsY0FBYyxDQUFDO0VBQ2IsS0FBSyxFQUFFLE1BQU07RUFDYixLQUFLLEVBQUUsS0FBSyxHQUliO0VBTkQsQUFHRSxjQUhZLEFBR1osV0FBWSxDQUFDO0lBQ1gsU0FBUyxFQUFFLGtCQUFrQixHQUM5Qjs7QUFHSCxBQUEyQixlQUFaLENBQUMsVUFBVSxDQUFDLENBQUM7QUFDNUIsQUFBd0IsWUFBWixDQUFDLFVBQVUsQ0FBQyxDQUFDLENBQUM7RUFDeEIsU0FBUyxFQUFFLElBQ2IsR0FBRTs7QUFFRixBQUFBLDBCQUEwQixDQUFDO0VBQ3pCLGFBQWEsRUFBRSxDQUFDLEdBTWpCO0VBTEMsQUFBUyxNQUFILEdBRlIsMEJBQTBCO0VBR3hCLEFBQWUsWUFBSCxHQUhkLDBCQUEwQixDQUdQO0lBQ2YsVUFBVSxFQUFFLElBQUk7SUFDaEIsYUFBYSxFQUFFLEdBQUcsR0FDbkIifQ== */
+
+/*# sourceMappingURL=style.css.map */
