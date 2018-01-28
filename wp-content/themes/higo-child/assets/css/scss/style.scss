@@ -40,3 +40,34 @@ Text Domain: higo-child
     margin-bottom: 5px;
   }
 }
+
+.gallery[data-columns] .gallery-item {
+  position: relative;
+  border: 2px solid rgba(0,0,0,0.05);
+  figcaption.gallery-caption {
+    margin: 0;
+    pointer-events: none;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 300ms linear;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px;
+    text-align: center;
+  }
+  &:hover {
+    figcaption.gallery-caption {
+      opacity: 1;
+    }
+  }
+}

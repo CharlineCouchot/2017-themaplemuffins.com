@@ -84,7 +84,7 @@ class Higo_Widget_Instagram extends WP_Widget {
 
 						<div class="instagramFeed__item">
 							<a href="<?php echo esc_url($item['link']); ?>" target="_blank" title="<?php echo esc_attr($insta_link_title); ?>">
-                                <img width="320" height="320" title="<?php echo esc_attr($img_title); ?>" src="<?php echo esc_url($item['img_m']); ?>" alt="<?php echo esc_attr($item['description']); ?>" srcset="<?php echo esc_url($item['img_m']); ?> 320w, <?php echo esc_url($item['img_s']); ?> 150w, <?php echo esc_url($item['img_l']); ?> 640w" sizes="(max-width: 539px) calc(100vw - 30px), (max-width: 809px) 248px, (max-width: 989px) 240px, (max-width: 1169px) 138px, 168px">
+                                <img width="320" height="320" title="<?php echo esc_attr($img_title); ?>" src="<?php echo esc_url($item['img_l']); ?>" alt="<?php echo esc_attr($item['description']); ?>" <?php /*srcset="<?php echo esc_url($item['img_m']); ?> 320w, <?php echo esc_url($item['img_s']); ?> 150w, <?php echo esc_url($item['img_l']); ?> 640w" sizes="(max-width: 539px) calc(100vw - 30px), (max-width: 809px) 248px, (max-width: 989px) 240px, (max-width: 1169px) 138px, 168px" */ ?>>
 							</a>
 
 							<?php if ($show_meta) : ?>
