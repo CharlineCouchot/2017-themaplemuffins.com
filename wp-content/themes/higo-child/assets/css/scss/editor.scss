@@ -3,3 +3,7 @@
 
 // Vendors
 @import "vendor/all";
+
+body {
+  max-width: calc(100% - 60px);
+}
